@@ -1,13 +1,11 @@
-# Ignore .env files
+# Ignore all files in Langchain_Practice by default
+*
+
+# But allow these folders to be tracked
+!API/
+!Chatbot/
+
+# Now ignore unwanted files/folders in those folders
+API/__pycache__/
 API/.env
 Chatbot/.env
-
-# Ignore Python bytecode caches
-**/__pycache__/
-
-# Ignore virtual environment
-.venv/
-
-# Ignore entire directories
-RAG/
-temp/
