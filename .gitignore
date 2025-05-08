@@ -9,3 +9,9 @@
 API/__pycache__/
 API/.env
 Chatbot/.env
+# Ignore environment and cache files
+API/.env
+API/__pycache__/
+Chatbot/.env
+__pycache__/
+*.pyc
