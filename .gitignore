@@ -1,0 +1,9 @@
+# Ignore .env files in both API and Chatbot folders
+API/.env
+Chatbot/.env
+
+# Ignore Python bytecode caches
+API/__pycache__/
+.venv
+Langchain_Practice/RAG
+Langchain_Practice/temp

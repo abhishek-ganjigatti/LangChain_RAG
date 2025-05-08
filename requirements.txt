@@ -1,0 +1,15 @@
+langchain_google_genai 
+langchain_core
+langchain_community
+streamlit
+python-dotenv
+langserve
+fastapi
+uvicorn
+sse_starlette
+bs4
+pypdf
+chromadbS
+faiss-cpu
+langchain-huggingface
+sentence_transformers
