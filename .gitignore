@@ -1,9 +1,13 @@
-# Ignore .env files in both API and Chatbot folders
+# Ignore .env files
 API/.env
 Chatbot/.env
 
 # Ignore Python bytecode caches
-API/__pycache__/
-.venv
+**/__pycache__/
+
+# Ignore virtual environment
+.venv/
+
+# Ignore entire directories
 RAG/
 temp/
