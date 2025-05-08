@@ -5,5 +5,5 @@ Chatbot/.env
 # Ignore Python bytecode caches
 API/__pycache__/
 .venv
-Langchain_Practice/RAG
-Langchain_Practice/temp
+RAG/
+temp/
